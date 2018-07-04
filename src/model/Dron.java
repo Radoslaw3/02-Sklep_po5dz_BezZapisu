@@ -5,19 +5,19 @@ import java.math.BigDecimal;
 public class Dron extends Produkt {
 
     private double zasieg;
-    private boolean czyMaKamere;
+    private String czyMaKamere;
 
-    public Dron(String nazwa, BigDecimal cena, double zasieg, boolean czyMaKamere) {
-        super(nazwa, cena);
-        this.zasieg = zasieg;
-        this.czyMaKamere = czyMaKamere;
+    public Dron(String nazwa_dron, BigDecimal cena_dron, double zasieg_dron, String czyMaKamere_dron) {
+        super(nazwa_dron, cena_dron);
+        this.zasieg = zasieg_dron;
+        this.czyMaKamere = czyMaKamere_dron;
     }
 
     public double getZasieg() {
         return zasieg;
     }
 
-    public boolean isCzyMaKamere() {
+    public String getCzyMaKamere() {
         return czyMaKamere;
     }
 
