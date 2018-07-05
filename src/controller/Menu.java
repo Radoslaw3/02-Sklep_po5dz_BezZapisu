@@ -13,7 +13,19 @@ public class Menu {
 
     public void wyswietlMenu(){     //stworz metode nic nie przyjmuje, nic nie zwraca
 
-        Sklep sklep = new Sklep("www.amazon.com"); //utworz pusty Sklep(obiekt klasy sklep)
+        //wczytaj pliki binarne
+        PlikiBinarne wczytywanie = new PlikiBinarne();
+        Sklep sklep;
+        try {
+            sklep = wczytywanie.wczytaj();
+        } catch (Exception e) {
+            System.out.println("Wystapil blad odczytu pliku  sklep.bin");
+            sklep = new Sklep("www.amazon.com"); //utworz pusty Sklep(obiekt klasy sklep)
+            e.printStackTrace();
+        }
+
+
+
         //powyzsza linijka, po odpaleniu, stworzy jedynie pusta liste, bo konstruktor to zalatwil
         Scanner scanner = new Scanner(System.in);
         System.out.println("1 - dodaj komputer");
@@ -84,6 +96,16 @@ public class Menu {
                 case "Q":
                     System.out.println("koniec");
 //                    return;                   //nie prawidlowo, bo nie uwzglednia while bo != nie do String, tylko typow prostych
+
+                    PlikiBinarne zapisywanie = new PlikiBinarne();
+                    try {
+                        zapisywanie.zapisz(sklep);
+                    } catch (IOException e) {
+                        System.out.println("Plik niestety sie nie zapisal  sklep.bin");
+                        e.printStackTrace();
+                    }
+
+
                     break;
                 default:
                     System.out.println("Podaj wyborrrr");      //lub tutaj info
