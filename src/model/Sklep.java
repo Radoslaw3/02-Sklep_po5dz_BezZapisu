@@ -8,6 +8,8 @@ public class Sklep implements Serializable {
 
     private String nazwa;
     private Collection<Produkt> produkty;
+   // public ArrayList<String> sortuj = new ArrayList<String>();
+
 
     //konstruktor
 //    public Sklep(Collections<Komputer> produkty, String nazwa) { //automat zle wstawil kolekcje
@@ -42,7 +44,22 @@ public class Sklep implements Serializable {
         for (Produkt tmp : produkty){     //syntacti sugar sie nazywa(czyli jakas instrukcja ktora jest nakladka na jakas funkcje), to jest nakladka na ten iterator powyzej
             System.out.println(tmp);
         }
+//        Collections.sort(produkty,null);
+//        for (Produkt tmp : produkty){     //syntacti sugar sie nazywa(czyli jakas instrukcja ktora jest nakladka na jakas funkcje), to jest nakladka na ten iterator powyzej
+//            System.out.println(tmp);
+//        }
     }
+
+//    public void komparatorPosortowaneCenowo(){
+//        List<Produkt> kopiaProdukty = new ArrayList<>(produkty);
+//        Collections.sort(kopiaProdukty);
+//
+//
+//        for (Produkt tmp : kopiaProdukty){     //syntacti sugar sie nazywa(czyli jakas instrukcja ktora jest nakladka na jakas funkcje), to jest nakladka na ten iterator powyzej
+//            System.out.println(tmp);
+//        }
+//
+//    }
 
 
 }

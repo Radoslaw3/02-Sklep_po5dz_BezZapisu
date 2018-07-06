@@ -24,11 +24,11 @@ public class Dron extends Produkt {
     @Override
     public String toString() {
         return "Dron{" +
-                "zasieg=" + zasieg +
-                ", czyMaKamere=" + czyMaKamere +
-                ", id=" + id +
+                "id=" + id +
                 ", nazwa='" + nazwa + '\'' +
                 ", cena=" + cena +
+                ", zasieg=" + zasieg +
+                ", czyMaKamere=" + czyMaKamere +
                 '}';
     }
 }

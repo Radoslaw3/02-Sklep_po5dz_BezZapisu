@@ -3,19 +3,20 @@ package model;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class Produkt implements Comparable<Produkt>, Serializable {
+public class Produkt implements Serializable{
+//public class Produkt implements Comparable<Produkt>, Serializable {
     protected long id;
 
-    @Override
-    public int compareTo(Produkt o) {
-        if (this.cena.compareTo(o.cena) < 0) {
-            return -1;
-        } else if (this.cena.compareTo(o.cena) > 0) {
-            return 1;
-        } else {
-            return 0;
-        }
-    }
+//    @Override
+//    public int compareTo(Produkt o) {
+//        if (this.cena.compareTo(o.cena) < 0) {
+//            return -1;
+//        } else if (this.cena.compareTo(o.cena) > 0) {
+//            return 1;
+//        } else {
+//            return 0;
+//        }
+//    }
 
     protected String nazwa;
     protected BigDecimal cena;

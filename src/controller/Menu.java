@@ -2,6 +2,7 @@ package controller;
 
 import model.Dron;
 import model.Komputer;
+import model.ProduktKomparator;
 import model.Sklep;
 import pliki.PlikiBinarne;
 
@@ -32,6 +33,7 @@ public class Menu {
         System.out.println("2 - usun komputer");
         System.out.println("3 - wyswietl liste komputerow");
         System.out.println("4-dodaj drona");
+        System.out.println("5-wyswietl posortowane cenowo");
         System.out.println("wyjdz");
         String wybor;
 
@@ -90,6 +92,11 @@ public class Menu {
 
                     Dron dron = new Dron(nazwa,cena,zasieg,czyMaKamere);
                     sklep.dodaj(dron);
+
+                    break;
+                case "5":
+
+//                    sklep.komparatorPosortowaneCenowo();
 
                     break;
                 case "q":
