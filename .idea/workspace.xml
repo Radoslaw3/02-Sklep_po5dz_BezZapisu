@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7678e965-ee54-4893-a0bf-15f6f3299b56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sklep.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pliki/OperacjePlikowe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/02-Sklep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-Sklep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/controller/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02-Sklep/controller/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/Dron.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02-Sklep/model/Dron.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/Produkt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02-Sklep/model/Produkt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/Sklep.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/02-Sklep/model/Sklep.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklep.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sklep.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/controller/Menu.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Dron.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Komputer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Produkt.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ProduktKomparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/Sklep.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pliki/PlikiBinarne.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/controller/Menu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/Dron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/Komputer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/Produkt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/ProduktKomparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/model/Sklep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/02-Sklep/pliki/PlikiBinarne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,8 +34,8 @@
           <file leaf-file-name="Sklep.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="952">
-                  <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -44,14 +43,44 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Menu.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="Menu.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/controller/Menu.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="527">
-                  <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+                <state relative-caret-position="153">
+                  <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sklep.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sklep.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="170">
+                  <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="OperacjePlikowe.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/pliki/OperacjePlikowe.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="238">
+                  <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" selection-start-line="7" selection-end-line="7" />
                 </state>
               </provider>
             </entry>
@@ -63,17 +92,17 @@
           <file leaf-file-name="PlikiBinarne.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiBinarne.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="8" selection-start-line="8" selection-end-line="31" selection-end-column="5" />
+                <state relative-caret-position="391">
+                  <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PlikiJson.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="PlikiJson.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+                <state relative-caret-position="408">
+                  <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -99,11 +128,18 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Produkt.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Produkt.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/model/Produkt.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1098#1099#0" expanded="true" />
+                    <element signature="e#1123#1124#0" expanded="true" />
+                    <element signature="e#1155#1156#0" expanded="true" />
+                    <element signature="e#1183#1184#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -144,6 +180,7 @@
       <find>produkty</find>
       <find>Komputer</find>
       <find>Produkt</find>
+      <find>wczytywanie</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -178,8 +215,13 @@
         <option value="$PROJECT_DIR$/src/controller/Menu.java" />
         <option value="$PROJECT_DIR$/src/pliki/PlikiJson.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pliki/PlikiBinarne.java" />
         <option value="$PROJECT_DIR$/src/main/java/controller/Menu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pliki/OperacjePlikowe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Sklep.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/Produkt.java" />
+        <option value="$PROJECT_DIR$/sklep.json" />
       </list>
     </option>
   </component>
@@ -202,6 +244,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -222,27 +267,64 @@
             </path>
             <path>
               <item name="02-Sklep_po5dz_BezZapisu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-Sklep_po5dz_BezZapisu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-Sklep_po5dz_BezZapisu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-Sklep_po5dz_BezZapisu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-Sklep_po5dz_BezZapisu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-Sklep_po5dz_BezZapisu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-Sklep_po5dz_BezZapisu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-Sklep_po5dz_BezZapisu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-Sklep_po5dz_BezZapisu" type="b2602c69:ProjectViewProjectNode" />
+              <item name="02-Sklep_po5dz_BezZapisu" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pliki" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="02-Sklep_po5dz_BezZapisu" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02-Sklep_po6dz_zJSON/src/main/java/controller/Menu.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02-Sklep_po6dz_zJSON/src/main/java/model/Sklep.java" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02-Sklep_po6dz_zJSON/src/main/java/controller/Menu.java" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/../02-Sklep_po6dz_zJSON/src/main/java/model/Sklep.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\drabczyk\IdeaProjects\02-Sklep_po5dz_BezZapisu\src\main\java\main" />
       <recent name="C:\Users\drabczyk\IdeaProjects\02-Sklep_po5dz_BezZapisu" />
     </key>
   </component>
@@ -349,7 +431,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530899907162</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Dodanie MAVENa do proj. i dodanie klasy PlikiJson.">
+      <created>1531213176356</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1531213176357</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -358,6 +447,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32755297" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -368,7 +458,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13219616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13326226" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
@@ -381,7 +471,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32755297" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +506,8 @@
     <MESSAGE value="dodane Menu_opcja 4-dodaj dron, zmiany w klasa Sklep(dodalem Collecton bo tak to trzeba by bylo drony i komputery oddzielnie gromadzic)." />
     <MESSAGE value="zapisz do pliku i wczytaj z pliku sklep.bin - dziala." />
     <MESSAGE value="dziedziczenie: Komputer i Dron dziedzicza po Produkt. &#10;Menu: Komputer komputer = new Komputer(nazwa, cena, marka, ram);&#10;Sklep: public void dodaj(Produkt produkt)" />
-    <option name="LAST_COMMIT_MESSAGE" value="dziedziczenie: Komputer i Dron dziedzicza po Produkt. &#10;Menu: Komputer komputer = new Komputer(nazwa, cena, marka, ram);&#10;Sklep: public void dodaj(Produkt produkt)" />
+    <MESSAGE value="Dodanie MAVENa do proj. i dodanie klasy PlikiJson." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie MAVENa do proj. i dodanie klasy PlikiJson." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -425,38 +515,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiBinarne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/controller/Menu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="45" column="5" selection-start-line="45" selection-start-column="5" selection-end-line="45" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
@@ -484,7 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ProduktKomparator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java" />
@@ -492,7 +551,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Menu.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiBinarne.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Produkt.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ProduktKomparator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java" />
@@ -500,7 +559,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Komputer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiBinarne.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Menu.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ProduktKomparator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java" />
@@ -536,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/util/Comparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1898">
@@ -567,55 +619,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Komputer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/lang/Override.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
-          <caret line="57" column="49" selection-start-line="57" selection-start-column="49" selection-end-line="57" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Produkt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiBinarne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" selection-start-line="8" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/ProduktKomparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -626,10 +633,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiBinarne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.5.0/jackson-mapper-asl-1.5.0.jar!/org/codehaus/jackson/map/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="481" selection-start-line="481" selection-end-line="481" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/codehaus/jackson/jackson-mapper-asl/1.5.0/jackson-mapper-asl-1.5.0.jar!/org/codehaus/jackson/map/ser/StdSerializerProvider.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+        <state relative-caret-position="408">
+          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pliki/OperacjePlikowe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -638,11 +683,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/controller/Menu.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="153">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/ProduktKomparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Komputer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="36" lean-forward="true" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Produkt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="57" lean-forward="true" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sklep.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -710,6 +807,18 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: org.codehaus.jackson:jackson-core-asl:1.5.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">

@@ -1,0 +1,11 @@
+{
+  "zbiornik" : [ {
+    "typ" : "komputer",
+    "id" : 1,
+    "nazwa" : "asdlfkj",
+    "cena" : 123,
+    "marka" : "flkj",
+    "ram" : 4
+  } ],
+  "nazwa" : "www.amazon.com"
+}
