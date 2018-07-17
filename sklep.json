@@ -1,21 +1,25 @@
 {
-  "nazwa": "www.amazon.com",
-  "zbiornik": [
-    {
-      "typ": "komputer",
-      "id": 1,
-      "nazwa" : "Apple",
-      "cena" : 1000.99,
-      "marka": "asdf",
-      "ram":8
-    },
-    {
-      "typ" : "dron",
-      "id" : 2,
-      "nazwa": "dron 1234",
-      "cena" :899,
-      "zasieg": 3.45,
-      "czyMaKamere": true
-    }
-  ]
+  "nazwa" : "www.amazon.com",
+  "zbiornik" : [ {
+    "typ" : "komputer",
+    "id" : 1,
+    "nazwa" : "Apple",
+    "cena" : 1000.99,
+    "marka" : "asdf",
+    "ram" : 8
+  }, {
+    "typ" : "dron",
+    "id" : 2,
+    "nazwa" : "dron 1234",
+    "cena" : 899,
+    "zasieg" : 3.45,
+    "czyMaKamere" : "true"
+  }, {
+    "typ" : "dron",
+    "id" : 1,
+    "nazwa" : "dron100",
+    "cena" : 100,
+    "zasieg" : 120.0,
+    "czyMaKamere" : "tak"
+  } ]
 }

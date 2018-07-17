@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7678e965-ee54-4893-a0bf-15f6f3299b56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/sklep-test.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/02-Sklep.iml" beforeDir="false" afterPath="$PROJECT_DIR$/02-Sklep.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sklep.bin" beforeDir="false" afterPath="$PROJECT_DIR$/sklep.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sklep.json" beforeDir="false" afterPath="$PROJECT_DIR$/sklep.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pliki/OperacjePlikowe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pliki/OperacjePlikowe.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,8 +21,8 @@
           <file leaf-file-name="PlikiJson.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
-                  <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -36,11 +30,20 @@
               </provider>
             </entry>
           </file>
+          <file leaf-file-name="ObjectMapper.class" pinned="false" current-in-tab="false">
+            <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="209">
+                  <caret line="1285" column="50" selection-start-line="1285" selection-start-column="24" selection-end-line="1285" selection-end-column="54" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file leaf-file-name="Sklep.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="21" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
+                <state relative-caret-position="-679">
+                  <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#2956#2957#0" expanded="true" />
@@ -64,8 +67,8 @@
           <file leaf-file-name="Dron.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+                <state relative-caret-position="340">
+                  <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -79,11 +82,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="Produkt.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="Produkt.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/model/Produkt.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="127">
-                  <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+                <state relative-caret-position="17">
+                  <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1098#1099#0" expanded="true" />
@@ -116,24 +119,24 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="sklep.json" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/sklep.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="sklep-test.json" pinned="false" current-in-tab="true">
+          <file leaf-file-name="sklep-test.json" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/sklep-test.json">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="323">
-                  <caret line="19" column="3" lean-forward="true" selection-end-line="20" selection-end-column="1" />
+                  <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="sklep.json" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/sklep.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="6" lean-forward="true" selection-end-line="24" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -211,8 +214,8 @@
         <option value="$PROJECT_DIR$/src/main/java/model/Sklep.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Dron.java" />
         <option value="$PROJECT_DIR$/src/main/java/model/Produkt.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java" />
         <option value="$PROJECT_DIR$/sklep.json" />
+        <option value="$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java" />
       </list>
     </option>
   </component>
@@ -437,7 +440,14 @@
       <option name="project" value="LOCAL" />
       <updated>1531241783050</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2018.07.17-dziala tylko wczytanie JSONa. Problemy napotkane:do klasy Komputer/Dron nalezalo dodac konstruktor bezparametryczny. Duzy problem stanowila zla biblioteka podana, niby dzialala ale nie do konca.">
+      <created>1531838769926</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1531838769926</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView">
@@ -462,11 +472,11 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.37957612" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3236994" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3236994" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32947975" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291815" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -544,7 +554,8 @@
     <MESSAGE value="dziedziczenie: Komputer i Dron dziedzicza po Produkt. &#10;Menu: Komputer komputer = new Komputer(nazwa, cena, marka, ram);&#10;Sklep: public void dodaj(Produkt produkt)" />
     <MESSAGE value="Dodanie MAVENa do proj. i dodanie klasy PlikiJson." />
     <MESSAGE value="Nadal bledy. Narazie w Menu(wczytanie i zapis) juz jest tylko cos info z JSONa nie prawidlowo jest rozpoznawane i nie moze byc zapisane do zbiornika. W Sklep musialem dodac konstructor bezparametryczny." />
-    <option name="LAST_COMMIT_MESSAGE" value="Nadal bledy. Narazie w Menu(wczytanie i zapis) juz jest tylko cos info z JSONa nie prawidlowo jest rozpoznawane i nie moze byc zapisane do zbiornika. W Sklep musialem dodac konstructor bezparametryczny." />
+    <MESSAGE value="2018.07.17-dziala tylko wczytanie JSONa. Problemy napotkane:do klasy Komputer/Dron nalezalo dodac konstruktor bezparametryczny. Duzy problem stanowila zla biblioteka podana, niby dzialala ale nie do konca." />
+    <option name="LAST_COMMIT_MESSAGE" value="2018.07.17-dziala tylko wczytanie JSONa. Problemy napotkane:do klasy Komputer/Dron nalezalo dodac konstruktor bezparametryczny. Duzy problem stanowila zla biblioteka podana, niby dzialala ale nie do konca." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -552,7 +563,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ProduktKomparator.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java" />
@@ -694,31 +704,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2956#2957#0" expanded="true" />
-            <element signature="e#2987#2988#0" expanded="true" />
-            <element signature="e#3019#3020#0" expanded="true" />
-            <element signature="e#3047#3048#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/ProduktKomparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -739,20 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/model/Produkt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="30" column="23" lean-forward="true" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1098#1099#0" expanded="true" />
-            <element signature="e#1123#1124#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1183#1184#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/model/Komputer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
@@ -760,12 +735,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Dron.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="340">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Sklep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-679">
+          <caret line="8" column="25" lean-forward="true" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2956#2957#0" expanded="true" />
+            <element signature="e#2987#2988#0" expanded="true" />
+            <element signature="e#3019#3020#0" expanded="true" />
+            <element signature="e#3047#3048#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -773,14 +759,45 @@
     <entry file="file://$PROJECT_DIR$/sklep-test.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
-          <caret line="19" column="3" lean-forward="true" selection-end-line="20" selection-end-column="1" />
+          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pliki/PlikiJson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-databind/2.9.5/jackson-databind-2.9.5.jar!/com/fasterxml/jackson/databind/ObjectMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="1285" column="50" selection-start-line="1285" selection-start-column="24" selection-end-line="1285" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sklep.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="6" lean-forward="true" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/Produkt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="28" column="23" lean-forward="true" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1098#1099#0" expanded="true" />
+            <element signature="e#1123#1124#0" expanded="true" />
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1183#1184#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
